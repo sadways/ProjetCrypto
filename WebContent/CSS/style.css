@@ -1,0 +1,122 @@
+body {
+    background: none repeat scroll 0 0 #F4F4F4;
+    color: #444444;
+    font: 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+    margin: 0;
+}
+#wrap {
+    margin: auto;
+    padding: 0 3em;
+}
+button {
+	text-align: center;
+	margin: auto;
+}
+h1 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 2px dotted #CCCCCC;
+    color: #99B92C;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0.8em;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+h2 {
+    color: #444444;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1.5em 0 0.8em;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    background: url("/css/img/ico-puce.png") no-repeat scroll left 7px rgba(0, 0, 0, 0);
+    list-style-type: none;
+    padding-left: 10px;
+}
+.mentions {
+    background: #505050;
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
+    color: #FFFFFF;
+    margin: 2em 3em 1em;
+    padding: 1.3em 170px 1.3em 1.3em;
+}
+.mentions a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.hint {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px dashed #FFFFFF;
+    padding: 1em 0em 1em 1em;
+}
+.warning {
+    color: #CC0000;
+}
+input[type="number"] {
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    line-height: 1.5;
+    width: 50px;
+}
+table {
+    margin: 1em 0;
+    width: auto;
+}
+th {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #555555;
+}
+th, td {
+    padding: 5px 8px;
+    text-align: left;
+}
+fieldset {
+    border: 0 none;
+    padding: 0;
+}
+legend {
+    padding-bottom: 1em;
+}
+img {
+    -moz-box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+body, details, .mentions {
+    margin: auto;
+    width: auto;
+}
+img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+    max-width: 100%;
+}
+img {
+    -moz-box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+textarea, table, td, th, code, pre, samp {
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+}
+code, pre, samp {
+    white-space: pre-wrap;
+}
+p + details, form, h3 {
+    margin-left: 0 !important;
+}
+img {
+    float: none !important;
+    width: auto !important;
+}
+.mentions {
+    background-image: none;
+}
+}
